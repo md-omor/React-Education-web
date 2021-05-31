@@ -1,0 +1,106 @@
+.subscribe{
+    background:linear-gradient(#2e2e2e99, #0d121285), url('../../images/subs2.jpg') fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.subscribe.container {
+    max-width: 100%;
+    height: 550px;
+    /* margin-bottom: 10%; */
+    object-fit: cover;
+    text-align: center;
+    padding-top: 4%;
+}
+
+p.ssubscribe__title {
+    margin-top: 55px;
+    font-family: 'Quicksand';
+    font-weight: 900;
+    font-size: 41px;
+    color: #fff;
+    word-spacing: 6px;
+    margin-bottom: 28px;
+}
+
+p.subs__desc {
+    font-size: 21px;
+    width: 735px;
+    color: #fff;
+    margin: auto;
+    margin-bottom: 55px;
+    font-family: 'Quicksand';
+    font-weight: 400;
+}
+
+input.subs__input {
+    padding: 20px 20px;
+    width: 620px;
+    border-radius: 50px;
+    border: 3px solid #2bb5f9;
+    outline: none;
+    position: relative;
+}
+
+button.subs__btn {
+    position: absolute;
+    top: 10%;
+    right: 31.8%;
+    padding: 13px 38px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #2bb5f9;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+@media screen and (max-width: 800px) {
+
+    
+    .subscribe.container {
+        max-width: 100%;
+        height: 550px;
+        object-fit: cover;
+        text-align: center;
+        padding-top: 4%;
+        overflow-x: hidden;
+    }
+
+    p.subs__desc {
+        font-size: 19px;
+        width: 430px;
+        color: #fff;
+        margin: auto;
+        margin-bottom: 55px;
+        font-family: 'Quicksand';
+        font-weight: 400;
+    }    
+
+    input.subs__input {
+        padding: 20px 20px;
+        width: 442px;
+        border-radius: 50px;
+        border: 3px solid #2bb5f9;
+        outline: none;
+        position: relative;
+    }
+
+    button.subs__btn {
+        position: absolute;
+        top: 8%;
+        right: 5.5%;
+        padding: 15px 33px;
+        border-radius: 50px;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background: #2bb5f9;
+        color: #fff;
+        font-family: 'Roboto';
+        font-weight: 400;
+    }
+}

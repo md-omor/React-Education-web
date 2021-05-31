@@ -1,0 +1,74 @@
+h3{
+    font-family: 'Volkhov', serif;
+    font-size: 55px !important;
+    letter-spacing: 1px;
+    line-height: 90px;
+}
+
+
+h3.h3-responsive {
+    line-height: 80px !important;
+}
+
+.carousel__description{
+    font-family: 'Quicksand', sans-serif;
+    width: 756px;
+    margin: auto;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.container.carousel__container {
+    max-width: 100%;
+    padding: 0;
+
+    
+}
+
+.carousel-caption.carousel__caption {
+    bottom: 50%;
+    top: 22%;
+}
+
+.carousel__button {
+    background: #2bb5f9 !important;
+    position: relative !important;
+    top: 70px !important;
+    padding: 12px 32px !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.carousel__button:hover{
+    background-color: #222;
+}
+
+
+@media screen and (max-width: 800px){
+    .carousel__caption h3 {
+        font-size: 35px !important;
+        line-height: 50px !important;
+        margin-top: -20px;
+    }
+}
+
+@media screen and (max-width: 800px){
+   
+.carousel.carousel-fade.z-depth-1 {
+    height: 500px;
+}
+
+img.d-block.w-100.slider_img {
+    height: 500px !important;
+}
+}
+
+@media screen and (max-width: 800px){
+    .carousel__description{
+        width: 100%;
+    }
+}

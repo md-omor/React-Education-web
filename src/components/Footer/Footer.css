@@ -1,0 +1,159 @@
+.footer__main {
+    width: 100%;
+    max-width: 100%;
+    background: #2bb5f9;
+    overflow-x: hidden;
+} 
+
+.footer.container {
+    max-width: 1305px;
+    margin-top: 130px;
+}
+
+.footer_img img {
+    width: 45%;
+}
+
+.footer_des {
+    margin-top: 20px;
+    font-family: 'Quicksand';
+    font-weight: 600;
+    line-height: 32px;
+    width: 352px;
+}
+
+.footer_contact {
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+.desc__features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc__links {
+    width: 50%;
+}
+.desc__links h4 {
+    font-size: 30px;
+    font-family: 'Volkhov';
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.desc__links ul {
+    list-style: disc;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Quicksand';
+    padding: 10px 22px;
+}
+
+.desc__links ul li {
+    padding-bottom: 16px;
+}
+
+.add {
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: 'Volkhov';
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.footer__address {
+    width: 100%;
+    margin-left: 50px;
+}
+
+.footer__email {
+    display: flex;
+}
+
+.fotter__address_icon {
+    font-size: 30px;
+    border: 2px dashed #102a42;
+    margin-right: 15px;
+    padding: 4px 15px;
+}
+
+.footer__all_ span {
+    display: block;
+}
+
+.footer__all_ {
+    font-size: 18px;
+    font-family: 'Quicksand';
+    font-weight: 600;
+}
+
+.footer__office{
+    display: flex;
+    margin-top: 35px;
+}
+
+.footer__social_media {
+    margin-top: 35px;
+    font-size: 27px;
+}
+
+.footer__social_media svg {
+    margin-right: 27px;
+    cursor: pointer;
+}
+
+.terms__cond {
+    background: #28a745;
+    width: 100%;
+    margin: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.footer.terms__footer.container {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.terms__col {
+    text-align: right;
+}
+
+a.social__link {
+    color: #102d42;
+}
+
+@media screen and (max-width: 800px) {
+    .add{
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .footer__address {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .footer__social_media {
+        margin-top: 35px;
+        font-size: 27px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .terms__cond {
+        text-align: center;
+        height: 76px;
+    }
+
+    .terms__col {
+        text-align: center;
+        margin-top: 8px;
+        margin-bottom: 5px;
+    }
+    
+}

@@ -1,0 +1,62 @@
+.events__hero.container {
+    width: 100%;
+    max-width: 1305px;
+    margin-top: 35px;
+    margin-bottom: -25px;
+}
+
+.events.card-group {
+    width: 100% !important;
+    max-width: 1260px !important;
+    margin: auto !important;
+    margin-top: 6% !important;
+    margin-bottom: 6% !important;
+}
+
+.events__card.card {
+    margin-right: 35px;
+    overflow: hidden; 
+}
+
+.events__title.card-title.h5 {
+    font-family: 'Volkhov';
+    font-size: 22px;
+    font-weight: 600;
+}
+
+p.events__des.card-text {
+    font-family: 'Quicksand';
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    padding: 8px 10px;
+    color:#102a42 !important;
+}
+
+p.events__des.card-text svg {
+    margin-right: 10px;
+}
+
+.events__img{
+   transition: transform .5s ease !important;
+   transform: scale(1); 
+  
+}
+
+.events__img:hover{
+   transition: transform .5s ease !important;
+   transform: scale(1.1);
+   
+}
+
+.card_img{
+    overflow: hidden;
+}
+
+@media screen and (max-width: 800px){
+    .events__card.card{
+        margin: auto !important;
+        width: 94% !important;
+        margin-left: 20px !important;
+        margin-bottom: 30px !important;
+    }
+}

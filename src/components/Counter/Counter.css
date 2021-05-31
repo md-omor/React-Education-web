@@ -1,0 +1,24 @@
+.counter {
+    background: #2bb5f9;
+    color: #fff;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.singal__counter.col-md-3.col-sm-12 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Volkhov', serif;
+}
+
+.singal__counter.col-md-3.col-sm-12 svg {
+    margin-left: 39%;
+    margin-bottom: 10%;
+    font-size: 44px;
+    
+}
