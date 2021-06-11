@@ -1,0 +1,36 @@
+.amount {
+    display: flex;
+    align-items: center;
+    width: 110px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+button.amount-btn {
+    border: none;
+    outline: none;
+}
+
+h2.amount {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+a.addTo__cart__btn {
+    background: #ff7116;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Quicksand';
+    font-weight: 700;
+}
+
+a.addTo__cart__btn:hover {
+
+background: #ff8231;
+color: #e4e8e4;
+}

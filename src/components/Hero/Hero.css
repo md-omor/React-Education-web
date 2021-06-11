@@ -47,6 +47,12 @@ h3.h3-responsive {
     background-color: #222;
 }
 
+.carousel .carousel-control-prev-icon, .carousel .carousel-control-next-icon {
+    width: 80px;
+    height: 70px;
+    font-size: 100px !important;
+}
+
 
 @media screen and (max-width: 800px){
     .carousel__caption h3 {

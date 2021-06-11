@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { BiBookmarks } from "react-icons/bi";
 import { formatPrice } from "../../utils/helpers";
 
-const Product = ({ image, name, price, id, description, category }) => {
+const Product = ({ image, name, price, id, description }) => {
   return (
     <Col sm={12} md={4} className="product">
       <img src={image} alt={name} className="product__image" />

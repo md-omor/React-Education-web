@@ -1,0 +1,24 @@
+.pageHero {
+    background: #2bb5f9;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.pageHero__container.container {
+    max-width: 1305px;
+}
+
+h3.pageHero_h3 {
+    font-size: 28px !important;
+    color: #ffffff;
+    font-family: 'Quicksand';
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+a.pageHero__link {
+    color: #ddd;
+}

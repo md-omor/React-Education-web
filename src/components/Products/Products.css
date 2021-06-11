@@ -20,8 +20,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
     border-radius: 50%;
     transition: all 0.3s linear;
     opacity: 0;
@@ -30,7 +30,8 @@
 }
 
 .link svg{
-    font-size: 1.45rem;
+    
+    font-size: 1.80rem;
 }
 
 .product:hover img{

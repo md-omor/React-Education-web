@@ -1,0 +1,19 @@
+.review__star {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.stars span {
+    /* color: #ff7922e0; */
+    color: #ffb900;
+    font-size: 1rem;
+    margin-right: 0.25rem;
+}
+
+p.reviews {
+    margin-left: 1rem;
+    margin-bottom: -4px;
+    font-family: 'Lato';
+    font-weight: 400;
+}

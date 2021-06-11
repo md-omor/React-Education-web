@@ -38,7 +38,7 @@ input.subs__input {
     padding: 20px 20px;
     width: 620px;
     border-radius: 50px;
-    border: 3px solid #2bb5f9;
+    border: 3px solid #26d27e;
     outline: none;
     position: relative;
 }
@@ -52,7 +52,7 @@ button.subs__btn {
     font-size: 20px;
     border: none;
     outline: none;
-    background: #2bb5f9;
+    background: #26d27e;
     color: #fff;
     font-family: 'Roboto';
     font-weight: 400;

@@ -1,7 +1,7 @@
 .footer__main {
     width: 100%;
     max-width: 100%;
-    background: #2bb5f9;
+    background: #f1f5f8;
     overflow-x: hidden;
 } 
 
@@ -45,7 +45,7 @@
 
 .desc__links ul {
     list-style: disc;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     font-family: 'Quicksand';
     padding: 10px 22px;
@@ -73,10 +73,10 @@
 }
 
 .fotter__address_icon {
-    font-size: 30px;
+    font-size: 20px;
     border: 2px dashed #102a42;
     margin-right: 15px;
-    padding: 4px 15px;
+    padding: 3px 12px;
 }
 
 .footer__all_ span {
@@ -84,7 +84,7 @@
 }
 
 .footer__all_ {
-    font-size: 18px;
+    font-size: 15px;
     font-family: 'Quicksand';
     font-weight: 600;
 }
@@ -105,7 +105,7 @@
 }
 
 .terms__cond {
-    background: #28a745;
+    background: #2bb5f9;
     width: 100%;
     margin: auto;
     height: 70px;
@@ -117,6 +117,7 @@
     margin-top: 15px;
     font-size: 16px;
     font-weight: 500;
+    color: #fff;
 }
 
 .terms__col {
@@ -124,7 +125,8 @@
 }
 
 a.social__link {
-    color: #102d42;
+    color: #f1f5f8;
+    margin-left: 5px;
 }
 
 @media screen and (max-width: 800px) {

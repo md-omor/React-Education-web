@@ -21,15 +21,15 @@ const Counter = () => {
           <Col sm={12} md={3} className="singal__counter">
             <VscFiles />
             <CountUp start={0} end={50} duration={8}></CountUp>
-            <span> Available Exams </span>
+            <span>Number of students</span>
           </Col>
           <Col sm={12} md={3} className="singal__counter">
             <BsCalendar /> <CountUp start={0} end={30} duration={8}></CountUp>
-            <span>Scheduled Events </span>
+            <span>Number of teachers</span>
           </Col>
           <Col sm={12} md={3} className="singal__counter">
             <IoIosPeople /> <CountUp start={0} end={18} duration={8}></CountUp>
-            <span> Professional Tutor </span>
+            <span>Preaperd Exam</span>
           </Col>
         </Row>
       </Container>

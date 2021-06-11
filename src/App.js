@@ -2,6 +2,7 @@ import "./App.css";
 import Home from "./pages/HomePages/Home";
 import AboutPage from "./pages/AboutPage/AboutPage";
 import SingleProductPage from "./pages/SingleProductPage/SingleProductPage";
+import ProductsPage from "./pages/ProductsPage/ProductsPage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Main_navbar from "./components/Navbar/Main_navbar";
 import Footer from "./components/Footer/Footer";
@@ -16,6 +17,9 @@ function App() {
         </Route>
         <Route exact path="/about">
           <AboutPage />
+        </Route>
+        <Route exact path="/products">
+          <ProductsPage />
         </Route>
         <Route exact path="/products/:id" children={<SingleProductPage />} />
       </Switch>
