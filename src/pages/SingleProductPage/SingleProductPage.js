@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import "./SingleProductPage.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";

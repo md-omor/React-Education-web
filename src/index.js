@@ -8,13 +8,17 @@ import App from "./App";
 import { AppProvider } from "./context/Header_context";
 import { ProductsProvider } from "./context/Products_context";
 import { FilterProvider } from "./context/Fillter_context";
+import { CartProvider } from './context/Cart_context'
 
 ReactDOM.render(
   <React.StrictMode>
     <AppProvider>
       <ProductsProvider>
         <FilterProvider>
-          <App />
+        <CartProvider>
+        <App />
+        </CartProvider>
+         
         </FilterProvider>
       </ProductsProvider>
     </AppProvider>

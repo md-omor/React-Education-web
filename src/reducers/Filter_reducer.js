@@ -79,51 +79,68 @@ const filter_reducer = (state, action) => {
 
   if (action.type === FILTER_PRODUCTS) {
     console.log("filtering product");
-    // const { all_product } = state;
-    // const { text, category, company, color, price, shipping } = state.filters;
+    const { all_product } = state;
+    const { text, category, company, color, price, shipping } = state.filters;
 
-    // let tempProducts = [...all_product];
-    // // filtering
-    // // text
-    // if (text) {
-    //   tempProducts = tempProducts.filter((product) => {
-    //     return product.name.toLowerCase().startsWith(text);
-    //   });
-    // }
+    let tempProducts = [...all_product];
+    // filtering
+    // text
+    if (text) {
+      tempProducts = tempProducts.filter((product) => {
+        return product.name.toLowerCase().startsWith(text);
+      });
+    }
 
-    // // category
-    // if (category !== "all") {
-    //   tempProducts = tempProducts.filter(
-    //     (product) => product.category === category
-    //   );
-    // }
+    // category
+    if (category !== "all") {
+      tempProducts = tempProducts.filter(
+        (product) => product.category === category
+      );
+    }
 
-    // // company
-    // if (company !== "all") {
-    //   tempProducts = tempProducts.filter(
-    //     (product) => product.company === company
-    //   );
-    // }
+    // company
+    if (company !== "all") {
+      tempProducts = tempProducts.filter(
+        (product) => product.company === company
+      );
+    }
 
-    // // color
-    // if (color !== "all") {
-    //   tempProducts = tempProducts.filter((product) => {
-    //     return product.colors.find((c) => c === color);
-    //     // console.log(product)
-    //   });
-    // }
+    // color
+    if (color !== "all") {
+      tempProducts = tempProducts.filter((product) => {
+        return product.colors.find((c) => c === color);
+        // console.log(product)
+      });
+    }
 
-    // // price
-    // tempProducts = tempProducts.filter((product) => product.price <= price);
+    // price
+    tempProducts = tempProducts.filter((product) => product.price <= price);
 
-    // // shipping
-    // if (shipping) {
-    //   tempProducts = tempProducts.filter(
-    //     (product) => product.shipping === true
-    //   );
-    // }
+    // shipping
+    if (shipping) {
+      tempProducts = tempProducts.filter(
+        (product) => product.shipping === true
+      );
+    }
 
-    return { ...state };
+    return { ...state, filterd_products: tempProducts };
+  }
+
+  /* ------------------------------ clear filters ----------------------------- */
+
+  if (action.type === CLEAR_FILTERS) {
+    return {
+      ...state,
+      filters: {
+        ...state.filters,
+        text: "",
+        company: "all",
+        category: "all",
+        color: "all",
+        price: state.filters.max_price,
+        shipping: false,
+      },
+    };
   }
 
   // return state;
